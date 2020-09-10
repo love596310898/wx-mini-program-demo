@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom" // 声明自定已header
+  },
+  "usingComponents": { // 全局使用组件
+    "cu-custom": "/colorui/components/cu-custom" // 自定义的header  引用自colorUi
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
